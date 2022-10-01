@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.5s;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-family: cursive;
+}
+.navbar ul li a:hover{
+    color: red;
+}
+.navbar.active{
+    background-color: white;
+    
+}
+.navbar.active ul li a{
+    color: black;
+}
+
+.top-container{
+    background-image: url("https://images.unsplash.com/photo-1514782831304-632d84503f6f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-container h1{
+    font-size: 3rem;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    letter-spacing: 3;
+
+}
+.text{
+    margin: 50px 5%;
+    font-family: sans-serif;
+
+}
